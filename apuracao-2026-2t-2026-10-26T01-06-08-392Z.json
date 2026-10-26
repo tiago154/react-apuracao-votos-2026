@@ -1,0 +1,3527 @@
+{
+  "version": 1,
+  "source": "https://djwnrcncpvp8z.cloudfront.net/oficial/2026/2t/historical/br/presidente.json",
+  "election": {
+    "year": 2026,
+    "round": 2,
+    "uf": "br",
+    "office": "presidente"
+  },
+  "exportedAt": "2026-10-26T01:06:08.392Z",
+  "timeZone": "America/Sao_Paulo",
+  "snapshotCount": 130,
+  "firstUpdate": 1792968383000,
+  "lastUpdate": 1792976556000,
+  "snapshots": [
+    {
+      "timestamp": 1792968383000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 9081485,
+          "percent": 49.95490217
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 9097882,
+          "percent": 50.04509783
+        }
+      ],
+      "counted": 72743,
+      "boxes": 499248,
+      "countedPercent": 14.570514053,
+      "valid": 18179367,
+      "blank": 191078,
+      "invalid": 367863
+    },
+    {
+      "timestamp": 1792968403000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 9241668,
+          "percent": 49.96111143
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 9256055,
+          "percent": 50.03888857
+        }
+      ],
+      "counted": 74024,
+      "boxes": 499248,
+      "countedPercent": 14.827099958,
+      "valid": 18497723,
+      "blank": 194471,
+      "invalid": 374170
+    },
+    {
+      "timestamp": 1792968472000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 9569996,
+          "percent": 49.904115746
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 9606771,
+          "percent": 50.095884254
+        }
+      ],
+      "counted": 76803,
+      "boxes": 499248,
+      "countedPercent": 15.383737141,
+      "valid": 19176767,
+      "blank": 201469,
+      "invalid": 387607
+    },
+    {
+      "timestamp": 1792968714000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 10163250,
+          "percent": 49.789315494
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 10249262,
+          "percent": 50.210684506
+        }
+      ],
+      "counted": 81816,
+      "boxes": 499248,
+      "countedPercent": 16.387847322,
+      "valid": 20412512,
+      "blank": 214683,
+      "invalid": 412575
+    },
+    {
+      "timestamp": 1792968803000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 10651412,
+          "percent": 49.760840924
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 10753797,
+          "percent": 50.239159076
+        }
+      ],
+      "counted": 85871,
+      "boxes": 499248,
+      "countedPercent": 17.200068904,
+      "valid": 21405209,
+      "blank": 225106,
+      "invalid": 432459
+    },
+    {
+      "timestamp": 1792968824000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 10822271,
+          "percent": 49.725274965
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 10941854,
+          "percent": 50.274725035
+        }
+      ],
+      "counted": 87322,
+      "boxes": 499248,
+      "countedPercent": 17.490706022,
+      "valid": 21764125,
+      "blank": 228942,
+      "invalid": 439533
+    },
+    {
+      "timestamp": 1792968893000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 11334559,
+          "percent": 49.654633875
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 11492231,
+          "percent": 50.345366125
+        }
+      ],
+      "counted": 91726,
+      "boxes": 499248,
+      "countedPercent": 18.37283274,
+      "valid": 22826790,
+      "blank": 240327,
+      "invalid": 460946
+    },
+    {
+      "timestamp": 1792968953000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 11821247,
+          "percent": 49.606282229
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 12008894,
+          "percent": 50.393717771
+        }
+      ],
+      "counted": 95851,
+      "boxes": 499248,
+      "countedPercent": 19.199075409,
+      "valid": 23830141,
+      "blank": 251127,
+      "invalid": 481214
+    },
+    {
+      "timestamp": 1792969023000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 12326982,
+          "percent": 49.590905609
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 12530362,
+          "percent": 50.409094391
+        }
+      ],
+      "counted": 100108,
+      "boxes": 499248,
+      "countedPercent": 20.051757844,
+      "valid": 24857344,
+      "blank": 262399,
+      "invalid": 501848
+    },
+    {
+      "timestamp": 1792969084000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 12734000,
+          "percent": 49.510890413
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 12985594,
+          "percent": 50.489109587
+        }
+      ],
+      "counted": 103678,
+      "boxes": 499248,
+      "countedPercent": 20.766833317,
+      "valid": 25719594,
+      "blank": 271888,
+      "invalid": 519129
+    },
+    {
+      "timestamp": 1792969144000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 13219255,
+          "percent": 49.513018388
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 13479289,
+          "percent": 50.486981612
+        }
+      ],
+      "counted": 107702,
+      "boxes": 499248,
+      "countedPercent": 21.57284556,
+      "valid": 26698544,
+      "blank": 282488,
+      "invalid": 538948
+    },
+    {
+      "timestamp": 1792969204000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 13661672,
+          "percent": 49.538129792
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 13916422,
+          "percent": 50.461870208
+        }
+      ],
+      "counted": 111347,
+      "boxes": 499248,
+      "countedPercent": 22.302943627,
+      "valid": 27578094,
+      "blank": 291884,
+      "invalid": 556692
+    },
+    {
+      "timestamp": 1792969263000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 14245886,
+          "percent": 49.530566699
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 14515921,
+          "percent": 50.469433301
+        }
+      ],
+      "counted": 116164,
+      "boxes": 499248,
+      "countedPercent": 23.267794763,
+      "valid": 28761807,
+      "blank": 304769,
+      "invalid": 580770
+    },
+    {
+      "timestamp": 1792969304000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 14667306,
+          "percent": 49.509026323
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 14958213,
+          "percent": 50.490973677
+        }
+      ],
+      "counted": 119712,
+      "boxes": 499248,
+      "countedPercent": 23.978463609,
+      "valid": 29625519,
+      "blank": 314229,
+      "invalid": 598085
+    },
+    {
+      "timestamp": 1792969364000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 15092671,
+          "percent": 49.488121395
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 15404892,
+          "percent": 50.511878605
+        }
+      ],
+      "counted": 123272,
+      "boxes": 499248,
+      "countedPercent": 24.69153607,
+      "valid": 30497563,
+      "blank": 324126,
+      "invalid": 616077
+    },
+    {
+      "timestamp": 1792969453000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 16087378,
+          "percent": 49.541184334
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 16385358,
+          "percent": 50.458815666
+        }
+      ],
+      "counted": 131326,
+      "boxes": 499248,
+      "countedPercent": 26.304762363,
+      "valid": 32472736,
+      "blank": 346293,
+      "invalid": 656825
+    },
+    {
+      "timestamp": 1792969484000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 16390329,
+          "percent": 49.554353852
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 16685128,
+          "percent": 50.445646148
+        }
+      ],
+      "counted": 133769,
+      "boxes": 499248,
+      "countedPercent": 26.794098324,
+      "valid": 33075457,
+      "blank": 353072,
+      "invalid": 669436
+    },
+    {
+      "timestamp": 1792969543000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 16961875,
+          "percent": 49.566015101
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 17258901,
+          "percent": 50.433984899
+        }
+      ],
+      "counted": 138450,
+      "boxes": 499248,
+      "countedPercent": 27.73170849,
+      "valid": 34220776,
+      "blank": 365662,
+      "invalid": 691880
+    },
+    {
+      "timestamp": 1792969634000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 17818952,
+          "percent": 49.532771747
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 18155114,
+          "percent": 50.467228253
+        }
+      ],
+      "counted": 145595,
+      "boxes": 499248,
+      "countedPercent": 29.162860943,
+      "valid": 35974066,
+      "blank": 385513,
+      "invalid": 728273
+    },
+    {
+      "timestamp": 1792969664000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 18109841,
+          "percent": 49.554763913
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 18435265,
+          "percent": 50.445236087
+        }
+      ],
+      "counted": 147888,
+      "boxes": 499248,
+      "countedPercent": 29.622151716,
+      "valid": 36545106,
+      "blank": 391833,
+      "invalid": 739659
+    },
+    {
+      "timestamp": 1792969764000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 19087663,
+          "percent": 49.569619914
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 19419114,
+          "percent": 50.430380086
+        }
+      ],
+      "counted": 155971,
+      "boxes": 499248,
+      "countedPercent": 31.241186745,
+      "valid": 38506777,
+      "blank": 413588,
+      "invalid": 779725
+    },
+    {
+      "timestamp": 1792969824000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 19746092,
+          "percent": 49.579952096
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 20080675,
+          "percent": 50.420047904
+        }
+      ],
+      "counted": 161276,
+      "boxes": 499248,
+      "countedPercent": 32.303784892,
+      "valid": 39826767,
+      "blank": 428374,
+      "invalid": 806994
+    },
+    {
+      "timestamp": 1792969854000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 20087112,
+          "percent": 49.603119228
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 20408551,
+          "percent": 50.396880772
+        }
+      ],
+      "counted": 163999,
+      "boxes": 499248,
+      "countedPercent": 32.849205205,
+      "valid": 40495663,
+      "blank": 435908,
+      "invalid": 820554
+    },
+    {
+      "timestamp": 1792969914000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 20857169,
+          "percent": 49.668963577
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 21135189,
+          "percent": 50.331036423
+        }
+      ],
+      "counted": 170102,
+      "boxes": 499248,
+      "countedPercent": 34.071643752,
+      "valid": 41992358,
+      "blank": 452890,
+      "invalid": 852166
+    },
+    {
+      "timestamp": 1792969974000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 21488362,
+          "percent": 49.703858997
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 21744422,
+          "percent": 50.296141003
+        }
+      ],
+      "counted": 175159,
+      "boxes": 499248,
+      "countedPercent": 35.084567189,
+      "valid": 43232784,
+      "blank": 467172,
+      "invalid": 877528
+    },
+    {
+      "timestamp": 1792970074000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 22515641,
+          "percent": 49.684264002
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 22801808,
+          "percent": 50.315735998
+        }
+      ],
+      "counted": 183585,
+      "boxes": 499248,
+      "countedPercent": 36.772305548,
+      "valid": 45317449,
+      "blank": 491464,
+      "invalid": 921327
+    },
+    {
+      "timestamp": 1792970104000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 22904371,
+          "percent": 49.701997906
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 23179030,
+          "percent": 50.298002094
+        }
+      ],
+      "counted": 186697,
+      "boxes": 499248,
+      "countedPercent": 37.395643047,
+      "valid": 46083401,
+      "blank": 499865,
+      "invalid": 936873
+    },
+    {
+      "timestamp": 1792970164000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 23600924,
+          "percent": 49.715407288
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 23871128,
+          "percent": 50.284592712
+        }
+      ],
+      "counted": 192318,
+      "boxes": 499248,
+      "countedPercent": 38.521536391,
+      "valid": 47472052,
+      "blank": 515489,
+      "invalid": 965309
+    },
+    {
+      "timestamp": 1792970224000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 24283819,
+          "percent": 49.770877839
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 24507402,
+          "percent": 50.229122161
+        }
+      ],
+      "counted": 197642,
+      "boxes": 499248,
+      "countedPercent": 39.587940262,
+      "valid": 48791221,
+      "blank": 530517,
+      "invalid": 992660
+    },
+    {
+      "timestamp": 1792970314000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 25126914,
+          "percent": 49.814366654
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 25314185,
+          "percent": 50.185633346
+        }
+      ],
+      "counted": 204283,
+      "boxes": 499248,
+      "countedPercent": 40.918140884,
+      "valid": 50441099,
+      "blank": 549639,
+      "invalid": 1027399
+    },
+    {
+      "timestamp": 1792970344000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 25535830,
+          "percent": 49.82828776
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 25711827,
+          "percent": 50.17171224
+        }
+      ],
+      "counted": 207588,
+      "boxes": 499248,
+      "countedPercent": 41.580136525,
+      "valid": 51247657,
+      "blank": 559045,
+      "invalid": 1044497
+    },
+    {
+      "timestamp": 1792970414000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 26314104,
+          "percent": 49.850600346
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 26471828,
+          "percent": 50.149399654
+        }
+      ],
+      "counted": 213855,
+      "boxes": 499248,
+      "countedPercent": 42.835424478,
+      "valid": 52785932,
+      "blank": 576748,
+      "invalid": 1076195
+    },
+    {
+      "timestamp": 1792970474000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 26961232,
+          "percent": 49.863392384
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 27108960,
+          "percent": 50.136607616
+        }
+      ],
+      "counted": 219021,
+      "boxes": 499248,
+      "countedPercent": 43.870180752,
+      "valid": 54070192,
+      "blank": 591764,
+      "invalid": 1103179
+    },
+    {
+      "timestamp": 1792970504000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 27283973,
+          "percent": 49.893975198
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 27399930,
+          "percent": 50.106024802
+        }
+      ],
+      "counted": 221498,
+      "boxes": 499248,
+      "countedPercent": 44.366326956,
+      "valid": 54683903,
+      "blank": 598807,
+      "invalid": 1115733
+    },
+    {
+      "timestamp": 1792970564000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 27951505,
+          "percent": 49.949771463
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 28007720,
+          "percent": 50.050228537
+        }
+      ],
+      "counted": 226642,
+      "boxes": 499248,
+      "countedPercent": 45.396676602,
+      "valid": 55959225,
+      "blank": 613329,
+      "invalid": 1143138
+    },
+    {
+      "timestamp": 1792970654000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 29113936,
+          "percent": 50.004036194
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 29109236,
+          "percent": 49.995963806
+        }
+      ],
+      "counted": 235836,
+      "boxes": 499248,
+      "countedPercent": 47.238246322,
+      "valid": 58223172,
+      "blank": 639706,
+      "invalid": 1191984
+    },
+    {
+      "timestamp": 1792970684000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 29357987,
+          "percent": 50.011425396
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 29344573,
+          "percent": 49.988574604
+        }
+      ],
+      "counted": 237754,
+      "boxes": 499248,
+      "countedPercent": 47.622424126,
+      "valid": 58702560,
+      "blank": 645222,
+      "invalid": 1202464
+    },
+    {
+      "timestamp": 1792970754000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 30219849,
+          "percent": 50.053770805
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 30154921,
+          "percent": 49.946229195
+        }
+      ],
+      "counted": 244469,
+      "boxes": 499248,
+      "countedPercent": 48.96744704,
+      "valid": 60374770,
+      "blank": 664549,
+      "invalid": 1238810
+    },
+    {
+      "timestamp": 1792970844000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 31393955,
+          "percent": 50.148778063
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 31207680,
+          "percent": 49.851221937
+        }
+      ],
+      "counted": 253428,
+      "boxes": 499248,
+      "countedPercent": 50.761945967,
+      "valid": 62601635,
+      "blank": 690399,
+      "invalid": 1287816
+    },
+    {
+      "timestamp": 1792970874000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 31754986,
+          "percent": 50.150766648
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 31564058,
+          "percent": 49.849233352
+        }
+      ],
+      "counted": 256350,
+      "boxes": 499248,
+      "countedPercent": 51.347226228,
+      "valid": 63319044,
+      "blank": 698869,
+      "invalid": 1303305
+    },
+    {
+      "timestamp": 1792970964000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 32914166,
+          "percent": 50.228536859
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 32614651,
+          "percent": 49.771463141
+        }
+      ],
+      "counted": 265228,
+      "boxes": 499248,
+      "countedPercent": 53.125500753,
+      "valid": 65528817,
+      "blank": 724623,
+      "invalid": 1351866
+    },
+    {
+      "timestamp": 1792971004000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 33435475,
+          "percent": 50.268161459
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 33078744,
+          "percent": 49.731838541
+        }
+      ],
+      "counted": 269215,
+      "boxes": 499248,
+      "countedPercent": 53.924101849,
+      "valid": 66514219,
+      "blank": 736165,
+      "invalid": 1373762
+    },
+    {
+      "timestamp": 1792971064000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 34149691,
+          "percent": 50.35278082
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 33671173,
+          "percent": 49.64721918
+        }
+      ],
+      "counted": 274510,
+      "boxes": 499248,
+      "countedPercent": 54.984696984,
+      "valid": 67820864,
+      "blank": 751305,
+      "invalid": 1402609
+    },
+    {
+      "timestamp": 1792971154000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 35285002,
+          "percent": 50.410701109
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 34710061,
+          "percent": 49.589298891
+        }
+      ],
+      "counted": 283379,
+      "boxes": 499248,
+      "countedPercent": 56.761168798,
+      "valid": 69995063,
+      "blank": 776675,
+      "invalid": 1449542
+    },
+    {
+      "timestamp": 1792971244000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 36507520,
+          "percent": 50.484220957
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 35807194,
+          "percent": 49.515779043
+        }
+      ],
+      "counted": 292684,
+      "boxes": 499248,
+      "countedPercent": 58.624971958,
+      "valid": 72314714,
+      "blank": 803983,
+      "invalid": 1499995
+    },
+    {
+      "timestamp": 1792971304000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 37248024,
+          "percent": 50.519471475
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 36482011,
+          "percent": 49.480528525
+        }
+      ],
+      "counted": 298392,
+      "boxes": 499248,
+      "countedPercent": 59.76829151,
+      "valid": 73730035,
+      "blank": 820986,
+      "invalid": 1532016
+    },
+    {
+      "timestamp": 1792971364000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 37961372,
+          "percent": 50.545941011
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 37141339,
+          "percent": 49.454058989
+        }
+      ],
+      "counted": 303795,
+      "boxes": 499248,
+      "countedPercent": 60.850519181,
+      "valid": 75102711,
+      "blank": 837121,
+      "invalid": 1563294
+    },
+    {
+      "timestamp": 1792971424000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 38729627,
+          "percent": 50.574008115
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 37850475,
+          "percent": 49.425991885
+        }
+      ],
+      "counted": 309707,
+      "boxes": 499248,
+      "countedPercent": 62.034700189,
+      "valid": 76580102,
+      "blank": 855334,
+      "invalid": 1597789
+    },
+    {
+      "timestamp": 1792971464000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 39171177,
+          "percent": 50.600291052
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 38241771,
+          "percent": 49.399708948
+        }
+      ],
+      "counted": 313020,
+      "boxes": 499248,
+      "countedPercent": 62.698298241,
+      "valid": 77412948,
+      "blank": 865093,
+      "invalid": 1616800
+    },
+    {
+      "timestamp": 1792971534000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 40166858,
+          "percent": 50.687947427
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 39076552,
+          "percent": 49.312052573
+        }
+      ],
+      "counted": 320366,
+      "boxes": 499248,
+      "countedPercent": 64.169711246,
+      "valid": 79243410,
+      "blank": 886775,
+      "invalid": 1657712
+    },
+    {
+      "timestamp": 1792971594000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 40967619,
+          "percent": 50.750550992
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 39755877,
+          "percent": 49.249449008
+        }
+      ],
+      "counted": 326366,
+      "boxes": 499248,
+      "countedPercent": 65.371518764,
+      "valid": 80723496,
+      "blank": 904102,
+      "invalid": 1691552
+    },
+    {
+      "timestamp": 1792971684000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 42112379,
+          "percent": 50.848231843
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 40707372,
+          "percent": 49.151768157
+        }
+      ],
+      "counted": 334810,
+      "boxes": 499248,
+      "countedPercent": 67.062862545,
+      "valid": 82819751,
+      "blank": 928550,
+      "invalid": 1739380
+    },
+    {
+      "timestamp": 1792971744000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 42857311,
+          "percent": 50.875455209
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 41382350,
+          "percent": 49.124544791
+        }
+      ],
+      "counted": 340575,
+      "boxes": 499248,
+      "countedPercent": 68.217599269,
+      "valid": 84239661,
+      "blank": 945271,
+      "invalid": 1771452
+    },
+    {
+      "timestamp": 1792971774000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 43251044,
+          "percent": 50.898230885
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 41724491,
+          "percent": 49.101769115
+        }
+      ],
+      "counted": 343484,
+      "boxes": 499248,
+      "countedPercent": 68.800275615,
+      "valid": 84975535,
+      "blank": 954118,
+      "invalid": 1789027
+    },
+    {
+      "timestamp": 1792971834000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 43971316,
+          "percent": 50.916997287
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 42387500,
+          "percent": 49.083002713
+        }
+      ],
+      "counted": 349076,
+      "boxes": 499248,
+      "countedPercent": 69.920360222,
+      "valid": 86358816,
+      "blank": 971447,
+      "invalid": 1821442
+    },
+    {
+      "timestamp": 1792971904000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 44829671,
+          "percent": 50.952628495
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 43153368,
+          "percent": 49.047371505
+        }
+      ],
+      "counted": 355649,
+      "boxes": 499248,
+      "countedPercent": 71.236940358,
+      "valid": 87983039,
+      "blank": 990785,
+      "invalid": 1858697
+    },
+    {
+      "timestamp": 1792971964000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 45581418,
+          "percent": 51.004447521
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 43786118,
+          "percent": 48.995552479
+        }
+      ],
+      "counted": 361262,
+      "boxes": 499248,
+      "countedPercent": 72.361231292,
+      "valid": 89367536,
+      "blank": 1007683,
+      "invalid": 1891781
+    },
+    {
+      "timestamp": 1792972014000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 46202950,
+          "percent": 51.027795993
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 44341721,
+          "percent": 48.972204007
+        }
+      ],
+      "counted": 366000,
+      "boxes": 499248,
+      "countedPercent": 73.310258629,
+      "valid": 90544671,
+      "blank": 1021825,
+      "invalid": 1919202
+    },
+    {
+      "timestamp": 1792972114000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 47483965,
+          "percent": 51.089620044
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 45458525,
+          "percent": 48.910379956
+        }
+      ],
+      "counted": 375612,
+      "boxes": 499248,
+      "countedPercent": 75.235554274,
+      "valid": 92942490,
+      "blank": 1051228,
+      "invalid": 1975431
+    },
+    {
+      "timestamp": 1792972144000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 47905407,
+          "percent": 51.11379922
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 45817634,
+          "percent": 48.88620078
+        }
+      ],
+      "counted": 378755,
+      "boxes": 499248,
+      "countedPercent": 75.865101112,
+      "valid": 93723041,
+      "blank": 1060838,
+      "invalid": 1993649
+    },
+    {
+      "timestamp": 1792972264000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 49413736,
+          "percent": 51.2094698
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 47079620,
+          "percent": 48.7905302
+        }
+      ],
+      "counted": 389821,
+      "boxes": 499248,
+      "countedPercent": 78.081634779,
+      "valid": 96493356,
+      "blank": 1094318,
+      "invalid": 2057397
+    },
+    {
+      "timestamp": 1792972334000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 50422675,
+          "percent": 51.251404574
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 47960336,
+          "percent": 48.748595426
+        }
+      ],
+      "counted": 397409,
+      "boxes": 499248,
+      "countedPercent": 79.601520687,
+      "valid": 98383011,
+      "blank": 1117774,
+      "invalid": 2101144
+    },
+    {
+      "timestamp": 1792972394000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 51212858,
+          "percent": 51.310659709
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 48596535,
+          "percent": 48.689340291
+        }
+      ],
+      "counted": 403135,
+      "boxes": 499248,
+      "countedPercent": 80.748445662,
+      "valid": 99809393,
+      "blank": 1135446,
+      "invalid": 2135833
+    },
+    {
+      "timestamp": 1792972454000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 51947254,
+          "percent": 51.355712202
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 49204598,
+          "percent": 48.644287798
+        }
+      ],
+      "counted": 408585,
+      "boxes": 499248,
+      "countedPercent": 81.840087492,
+      "valid": 101151852,
+      "blank": 1151725,
+      "invalid": 2167676
+    },
+    {
+      "timestamp": 1792972484000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 52273676,
+          "percent": 51.375161417
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 49475252,
+          "percent": 48.624838583
+        }
+      ],
+      "counted": 411004,
+      "boxes": 499248,
+      "countedPercent": 82.324616223,
+      "valid": 101748928,
+      "blank": 1158857,
+      "invalid": 2182007
+    },
+    {
+      "timestamp": 1792972554000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 53172522,
+          "percent": 51.395433406
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 50285156,
+          "percent": 48.604566594
+        }
+      ],
+      "counted": 417813,
+      "boxes": 499248,
+      "countedPercent": 83.688467455,
+      "valid": 103457678,
+      "blank": 1180973,
+      "invalid": 2224826
+    },
+    {
+      "timestamp": 1792972644000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 54199648,
+          "percent": 51.43116594
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 51183240,
+          "percent": 48.56883406
+        }
+      ],
+      "counted": 425575,
+      "boxes": 499248,
+      "countedPercent": 85.243205781,
+      "valid": 105382888,
+      "blank": 1204630,
+      "invalid": 2270176
+    },
+    {
+      "timestamp": 1792972704000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 54957812,
+          "percent": 51.449191671
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 51861771,
+          "percent": 48.550808329
+        }
+      ],
+      "counted": 431396,
+      "boxes": 499248,
+      "countedPercent": 86.409159376,
+      "valid": 106819583,
+      "blank": 1222931,
+      "invalid": 2304977
+    },
+    {
+      "timestamp": 1792972774000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 55802196,
+          "percent": 51.500416666
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 52550706,
+          "percent": 48.499583334
+        }
+      ],
+      "counted": 437624,
+      "boxes": 499248,
+      "countedPercent": 87.65663558,
+      "valid": 108352902,
+      "blank": 1241152,
+      "invalid": 2340465
+    },
+    {
+      "timestamp": 1792972804000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 56253217,
+          "percent": 51.517694547
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 52938814,
+          "percent": 48.482305453
+        }
+      ],
+      "counted": 440964,
+      "boxes": 499248,
+      "countedPercent": 88.325641765,
+      "valid": 109192031,
+      "blank": 1251294,
+      "invalid": 2359825
+    },
+    {
+      "timestamp": 1792972894000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 57206365,
+          "percent": 51.555627
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 53754103,
+          "percent": 48.444373
+        }
+      ],
+      "counted": 448039,
+      "boxes": 499248,
+      "countedPercent": 89.742773131,
+      "valid": 110960468,
+      "blank": 1273291,
+      "invalid": 2402550
+    },
+    {
+      "timestamp": 1792972924000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 57625060,
+          "percent": 51.579895707
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 54094941,
+          "percent": 48.420104293
+        }
+      ],
+      "counted": 451080,
+      "boxes": 499248,
+      "countedPercent": 90.351889241,
+      "valid": 111720001,
+      "blank": 1282300,
+      "invalid": 2420385
+    },
+    {
+      "timestamp": 1792973013000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 58717861,
+          "percent": 51.623951566
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 55023647,
+          "percent": 48.376048434
+        }
+      ],
+      "counted": 459036,
+      "boxes": 499248,
+      "countedPercent": 91.945486011,
+      "valid": 113741508,
+      "blank": 1306882,
+      "invalid": 2469364
+    },
+    {
+      "timestamp": 1792973054000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59275100,
+          "percent": 51.663306386
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 55458362,
+          "percent": 48.336693614
+        }
+      ],
+      "counted": 462973,
+      "boxes": 499248,
+      "countedPercent": 92.734072044,
+      "valid": 114733462,
+      "blank": 1318470,
+      "invalid": 2492723
+    },
+    {
+      "timestamp": 1792973084000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59556789,
+          "percent": 51.673204093
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 55699832,
+          "percent": 48.326795907
+        }
+      ],
+      "counted": 465067,
+      "boxes": 499248,
+      "countedPercent": 93.153502868,
+      "valid": 115256621,
+      "blank": 1324805,
+      "invalid": 2505202
+    },
+    {
+      "timestamp": 1792973174000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 60774211,
+          "percent": 51.718762086
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 56734810,
+          "percent": 48.281237914
+        }
+      ],
+      "counted": 473914,
+      "boxes": 499248,
+      "countedPercent": 94.925568054,
+      "valid": 117509021,
+      "blank": 1351903,
+      "invalid": 2561032
+    },
+    {
+      "timestamp": 1792973234000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 61425193,
+          "percent": 51.729179559
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 57318606,
+          "percent": 48.270820441
+        }
+      ],
+      "counted": 478712,
+      "boxes": 499248,
+      "countedPercent": 95.886613467,
+      "valid": 118743799,
+      "blank": 1367186,
+      "invalid": 2592153
+    },
+    {
+      "timestamp": 1792973294000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 62066282,
+          "percent": 51.74074996
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 57890004,
+          "percent": 48.25925004
+        }
+      ],
+      "counted": 483425,
+      "boxes": 499248,
+      "countedPercent": 96.830633272,
+      "valid": 119956286,
+      "blank": 1381837,
+      "invalid": 2622064
+    },
+    {
+      "timestamp": 1792973364000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 63049525,
+          "percent": 51.745848739
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 58795080,
+          "percent": 48.254151261
+        }
+      ],
+      "counted": 490589,
+      "boxes": 499248,
+      "countedPercent": 98.26559145,
+      "valid": 121844605,
+      "blank": 1403928,
+      "invalid": 2667793
+    },
+    {
+      "timestamp": 1792973422000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 63771027,
+          "percent": 51.747587367
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59463756,
+          "percent": 48.252412633
+        }
+      ],
+      "counted": 495835,
+      "boxes": 499248,
+      "countedPercent": 99.316371823,
+      "valid": 123234783,
+      "blank": 1421000,
+      "invalid": 2702557
+    },
+    {
+      "timestamp": 1792973480000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64060216,
+          "percent": 51.753354684
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59719617,
+          "percent": 48.246645316
+        }
+      ],
+      "counted": 498010,
+      "boxes": 499248,
+      "countedPercent": 99.752027049,
+      "valid": 123779833,
+      "blank": 1427405,
+      "invalid": 2716139
+    },
+    {
+      "timestamp": 1792973507000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64060863,
+          "percent": 51.753322557
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59720297,
+          "percent": 48.246677443
+        }
+      ],
+      "counted": 498015,
+      "boxes": 499248,
+      "countedPercent": 99.753028555,
+      "valid": 123781160,
+      "blank": 1427422,
+      "invalid": 2716169
+    },
+    {
+      "timestamp": 1792973599000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64069621,
+          "percent": 51.754477889
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59725698,
+          "percent": 48.245522111
+        }
+      ],
+      "counted": 498073,
+      "boxes": 499248,
+      "countedPercent": 99.764646028,
+      "valid": 123795319,
+      "blank": 1427565,
+      "invalid": 2716447
+    },
+    {
+      "timestamp": 1792973669000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64076924,
+          "percent": 51.756399108
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59727910,
+          "percent": 48.243600892
+        }
+      ],
+      "counted": 498105,
+      "boxes": 499248,
+      "countedPercent": 99.771055668,
+      "valid": 123804834,
+      "blank": 1427666,
+      "invalid": 2716776
+    },
+    {
+      "timestamp": 1792973689000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64078503,
+          "percent": 51.756873933
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59728246,
+          "percent": 48.243126067
+        }
+      ],
+      "counted": 498112,
+      "boxes": 499248,
+      "countedPercent": 99.772457776,
+      "valid": 123806749,
+      "blank": 1427684,
+      "invalid": 2716823
+    },
+    {
+      "timestamp": 1792973792000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64092177,
+          "percent": 51.759608214
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59734450,
+          "percent": 48.240391786
+        }
+      ],
+      "counted": 498188,
+      "boxes": 499248,
+      "countedPercent": 99.787680672,
+      "valid": 123826627,
+      "blank": 1427880,
+      "invalid": 2717354
+    },
+    {
+      "timestamp": 1792973814000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64093998,
+          "percent": 51.759911336
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59735422,
+          "percent": 48.240088664
+        }
+      ],
+      "counted": 498199,
+      "boxes": 499248,
+      "countedPercent": 99.789883986,
+      "valid": 123829420,
+      "blank": 1427913,
+      "invalid": 2717411
+    },
+    {
+      "timestamp": 1792973892000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64102155,
+          "percent": 51.760370782
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59741925,
+          "percent": 48.239629218
+        }
+      ],
+      "counted": 498264,
+      "boxes": 499248,
+      "countedPercent": 99.802903567,
+      "valid": 123844080,
+      "blank": 1428058,
+      "invalid": 2717791
+    },
+    {
+      "timestamp": 1792973937000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64108864,
+          "percent": 51.761519482
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59745429,
+          "percent": 48.238480518
+        }
+      ],
+      "counted": 498314,
+      "boxes": 499248,
+      "countedPercent": 99.81291863,
+      "valid": 123854293,
+      "blank": 1428156,
+      "invalid": 2717981
+    },
+    {
+      "timestamp": 1792974012000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64113797,
+          "percent": 51.760605256
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59752214,
+          "percent": 48.239394744
+        }
+      ],
+      "counted": 498366,
+      "boxes": 499248,
+      "countedPercent": 99.823334295,
+      "valid": 123866011,
+      "blank": 1428282,
+      "invalid": 2718216
+    },
+    {
+      "timestamp": 1792974037000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64116469,
+          "percent": 51.760567744
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59754794,
+          "percent": 48.239432256
+        }
+      ],
+      "counted": 498386,
+      "boxes": 499248,
+      "countedPercent": 99.82734032,
+      "valid": 123871263,
+      "blank": 1428332,
+      "invalid": 2718318
+    },
+    {
+      "timestamp": 1792974134000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64124287,
+          "percent": 51.760799277
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59761526,
+          "percent": 48.239200723
+        }
+      ],
+      "counted": 498448,
+      "boxes": 499248,
+      "countedPercent": 99.839758998,
+      "valid": 123885813,
+      "blank": 1428481,
+      "invalid": 2718682
+    },
+    {
+      "timestamp": 1792974200000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64135805,
+          "percent": 51.762867302
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59767310,
+          "percent": 48.237132698
+        }
+      ],
+      "counted": 498518,
+      "boxes": 499248,
+      "countedPercent": 99.853780085,
+      "valid": 123903115,
+      "blank": 1428646,
+      "invalid": 2719112
+    },
+    {
+      "timestamp": 1792974257000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64137770,
+          "percent": 51.762664339
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59769627,
+          "percent": 48.237335661
+        }
+      ],
+      "counted": 498538,
+      "boxes": 499248,
+      "countedPercent": 99.85778611,
+      "valid": 123907397,
+      "blank": 1428694,
+      "invalid": 2719197
+    },
+    {
+      "timestamp": 1792974321000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64143344,
+          "percent": 51.76312942
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59773708,
+          "percent": 48.23687058
+        }
+      ],
+      "counted": 498581,
+      "boxes": 499248,
+      "countedPercent": 99.866399064,
+      "valid": 123917052,
+      "blank": 1428809,
+      "invalid": 2719383
+    },
+    {
+      "timestamp": 1792974350000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64144599,
+          "percent": 51.763311338
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59774442,
+          "percent": 48.236688662
+        }
+      ],
+      "counted": 498590,
+      "boxes": 499248,
+      "countedPercent": 99.868201775,
+      "valid": 123919041,
+      "blank": 1428832,
+      "invalid": 2719428
+    },
+    {
+      "timestamp": 1792974450000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64147262,
+          "percent": 51.763411825
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59776683,
+          "percent": 48.236588175
+        }
+      ],
+      "counted": 498612,
+      "boxes": 499248,
+      "countedPercent": 99.872608403,
+      "valid": 123923945,
+      "blank": 1428879,
+      "invalid": 2719527
+    },
+    {
+      "timestamp": 1792974494000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64149775,
+          "percent": 51.763641462
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59778475,
+          "percent": 48.236358538
+        }
+      ],
+      "counted": 498629,
+      "boxes": 499248,
+      "countedPercent": 99.876013524,
+      "valid": 123928250,
+      "blank": 1428922,
+      "invalid": 2719681
+    },
+    {
+      "timestamp": 1792974571000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64156472,
+          "percent": 51.764822867
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59781887,
+          "percent": 48.235177133
+        }
+      ],
+      "counted": 498662,
+      "boxes": 499248,
+      "countedPercent": 99.882623466,
+      "valid": 123938359,
+      "blank": 1429045,
+      "invalid": 2719960
+    },
+    {
+      "timestamp": 1792974592000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64157344,
+          "percent": 51.764980969
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59782321,
+          "percent": 48.235019031
+        }
+      ],
+      "counted": 498666,
+      "boxes": 499248,
+      "countedPercent": 99.883424671,
+      "valid": 123939665,
+      "blank": 1429057,
+      "invalid": 2719995
+    },
+    {
+      "timestamp": 1792974636000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64162245,
+          "percent": 51.766002427
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59784442,
+          "percent": 48.233997573
+        }
+      ],
+      "counted": 498692,
+      "boxes": 499248,
+      "countedPercent": 99.888632503,
+      "valid": 123946687,
+      "blank": 1429102,
+      "invalid": 2720145
+    },
+    {
+      "timestamp": 1792974720000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64164515,
+          "percent": 51.766378765
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59785656,
+          "percent": 48.233621235
+        }
+      ],
+      "counted": 498706,
+      "boxes": 499248,
+      "countedPercent": 99.891436721,
+      "valid": 123950171,
+      "blank": 1429132,
+      "invalid": 2720208
+    },
+    {
+      "timestamp": 1792974775000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64168688,
+          "percent": 51.766773919
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59788598,
+          "percent": 48.233226081
+        }
+      ],
+      "counted": 498732,
+      "boxes": 499248,
+      "countedPercent": 99.896644553,
+      "valid": 123957286,
+      "blank": 1429236,
+      "invalid": 2720409
+    },
+    {
+      "timestamp": 1792974800000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64168778,
+          "percent": 51.766772607
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59788685,
+          "percent": 48.233227393
+        }
+      ],
+      "counted": 498733,
+      "boxes": 499248,
+      "countedPercent": 99.896844855,
+      "valid": 123957463,
+      "blank": 1429237,
+      "invalid": 2720412
+    },
+    {
+      "timestamp": 1792974851000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64169977,
+          "percent": 51.766973961
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59789320,
+          "percent": 48.233026039
+        }
+      ],
+      "counted": 498739,
+      "boxes": 499248,
+      "countedPercent": 99.898046662,
+      "valid": 123959297,
+      "blank": 1429264,
+      "invalid": 2720459
+    },
+    {
+      "timestamp": 1792974982000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64171319,
+          "percent": 51.767148681
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59790152,
+          "percent": 48.232851319
+        }
+      ],
+      "counted": 498748,
+      "boxes": 499248,
+      "countedPercent": 99.899849373,
+      "valid": 123961471,
+      "blank": 1429282,
+      "invalid": 2720490
+    },
+    {
+      "timestamp": 1792975066000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64172147,
+          "percent": 51.767343063
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59790458,
+          "percent": 48.232656937
+        }
+      ],
+      "counted": 498753,
+      "boxes": 499248,
+      "countedPercent": 99.90085088,
+      "valid": 123962605,
+      "blank": 1429291,
+      "invalid": 2720506
+    },
+    {
+      "timestamp": 1792975163000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64174591,
+          "percent": 51.767844643
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59791534,
+          "percent": 48.232155357
+        }
+      ],
+      "counted": 498766,
+      "boxes": 499248,
+      "countedPercent": 99.903454796,
+      "valid": 123966125,
+      "blank": 1429338,
+      "invalid": 2720614
+    },
+    {
+      "timestamp": 1792975229000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64185535,
+          "percent": 51.770044067
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59796463,
+          "percent": 48.229955933
+        }
+      ],
+      "counted": 498818,
+      "boxes": 499248,
+      "countedPercent": 99.913870461,
+      "valid": 123981998,
+      "blank": 1429531,
+      "invalid": 2721088
+    },
+    {
+      "timestamp": 1792975345000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64193709,
+          "percent": 51.772199355
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59798916,
+          "percent": 48.227800645
+        }
+      ],
+      "counted": 498859,
+      "boxes": 499248,
+      "countedPercent": 99.922082813,
+      "valid": 123992625,
+      "blank": 1429642,
+      "invalid": 2721351
+    },
+    {
+      "timestamp": 1792975413000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64200422,
+          "percent": 51.773838682
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59801243,
+          "percent": 48.226161318
+        }
+      ],
+      "counted": 498898,
+      "boxes": 499248,
+      "countedPercent": 99.929894561,
+      "valid": 124001665,
+      "blank": 1429719,
+      "invalid": 2721517
+    },
+    {
+      "timestamp": 1792975452000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64202694,
+          "percent": 51.774301838
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59802250,
+          "percent": 48.225698162
+        }
+      ],
+      "counted": 498913,
+      "boxes": 499248,
+      "countedPercent": 99.93289908,
+      "valid": 124004944,
+      "blank": 1429735,
+      "invalid": 2721587
+    },
+    {
+      "timestamp": 1792975506000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64205344,
+          "percent": 51.774741206
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59803666,
+          "percent": 48.225258794
+        }
+      ],
+      "counted": 498931,
+      "boxes": 499248,
+      "countedPercent": 99.936504503,
+      "valid": 124009010,
+      "blank": 1429774,
+      "invalid": 2721660
+    },
+    {
+      "timestamp": 1792975538000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64206857,
+          "percent": 51.775125004
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59804156,
+          "percent": 48.224874996
+        }
+      ],
+      "counted": 498938,
+      "boxes": 499248,
+      "countedPercent": 99.937906612,
+      "valid": 124011013,
+      "blank": 1429793,
+      "invalid": 2721721
+    },
+    {
+      "timestamp": 1792975591000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64212451,
+          "percent": 51.776671525
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59805662,
+          "percent": 48.223328475
+        }
+      ],
+      "counted": 498965,
+      "boxes": 499248,
+      "countedPercent": 99.943314745,
+      "valid": 124018113,
+      "blank": 1429865,
+      "invalid": 2721912
+    },
+    {
+      "timestamp": 1792975656000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64215027,
+          "percent": 51.77752829
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59806009,
+          "percent": 48.22247171
+        }
+      ],
+      "counted": 498977,
+      "boxes": 499248,
+      "countedPercent": 99.94571836,
+      "valid": 124021036,
+      "blank": 1429898,
+      "invalid": 2721960
+    },
+    {
+      "timestamp": 1792975732000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64216956,
+          "percent": 51.778056635
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59806540,
+          "percent": 48.221943365
+        }
+      ],
+      "counted": 498988,
+      "boxes": 499248,
+      "countedPercent": 99.947921674,
+      "valid": 124023496,
+      "blank": 1429918,
+      "invalid": 2722018
+    },
+    {
+      "timestamp": 1792975819000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64220485,
+          "percent": 51.778779536
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59808095,
+          "percent": 48.221220464
+        }
+      ],
+      "counted": 499009,
+      "boxes": 499248,
+      "countedPercent": 99.952128001,
+      "valid": 124028580,
+      "blank": 1429974,
+      "invalid": 2722146
+    },
+    {
+      "timestamp": 1792975837000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64223941,
+          "percent": 51.779197221
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59810313,
+          "percent": 48.220802779
+        }
+      ],
+      "counted": 499028,
+      "boxes": 499248,
+      "countedPercent": 99.955933724,
+      "valid": 124034254,
+      "blank": 1430030,
+      "invalid": 2722282
+    },
+    {
+      "timestamp": 1792975907000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64224880,
+          "percent": 51.779411988
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59810673,
+          "percent": 48.220588012
+        }
+      ],
+      "counted": 499035,
+      "boxes": 499248,
+      "countedPercent": 99.957335833,
+      "valid": 124035553,
+      "blank": 1430046,
+      "invalid": 2722302
+    },
+    {
+      "timestamp": 1792975961000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64225716,
+          "percent": 51.779675627
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59810820,
+          "percent": 48.220324373
+        }
+      ],
+      "counted": 499040,
+      "boxes": 499248,
+      "countedPercent": 99.958337339,
+      "valid": 124036536,
+      "blank": 1430048,
+      "invalid": 2722316
+    },
+    {
+      "timestamp": 1792976068000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64229683,
+          "percent": 51.780460534
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59812634,
+          "percent": 48.219539466
+        }
+      ],
+      "counted": 499058,
+      "boxes": 499248,
+      "countedPercent": 99.961942762,
+      "valid": 124042317,
+      "blank": 1430088,
+      "invalid": 2722462
+    },
+    {
+      "timestamp": 1792976076000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64229885,
+          "percent": 51.780524031
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59812670,
+          "percent": 48.219475969
+        }
+      ],
+      "counted": 499059,
+      "boxes": 499248,
+      "countedPercent": 99.962143063,
+      "valid": 124042555,
+      "blank": 1430090,
+      "invalid": 2722466
+    },
+    {
+      "timestamp": 1792976166000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64235635,
+          "percent": 51.781375784
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59815984,
+          "percent": 48.218624216
+        }
+      ],
+      "counted": 499101,
+      "boxes": 499248,
+      "countedPercent": 99.970555716,
+      "valid": 124051619,
+      "blank": 1430184,
+      "invalid": 2722585
+    },
+    {
+      "timestamp": 1792976211000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64235740,
+          "percent": 51.781360663
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59816118,
+          "percent": 48.218639337
+        }
+      ],
+      "counted": 499102,
+      "boxes": 499248,
+      "countedPercent": 99.970756017,
+      "valid": 124051858,
+      "blank": 1430192,
+      "invalid": 2722591
+    },
+    {
+      "timestamp": 1792976306000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64236719,
+          "percent": 51.781357591
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59817037,
+          "percent": 48.218642409
+        }
+      ],
+      "counted": 499109,
+      "boxes": 499248,
+      "countedPercent": 99.972158126,
+      "valid": 124053756,
+      "blank": 1430214,
+      "invalid": 2722631
+    },
+    {
+      "timestamp": 1792976406000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64239690,
+          "percent": 51.782058646
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59818124,
+          "percent": 48.217941354
+        }
+      ],
+      "counted": 499132,
+      "boxes": 499248,
+      "countedPercent": 99.976765055,
+      "valid": 124057814,
+      "blank": 1430249,
+      "invalid": 2722716
+    },
+    {
+      "timestamp": 1792976472000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64240288,
+          "percent": 51.782198825
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59818345,
+          "percent": 48.217801175
+        }
+      ],
+      "counted": 499137,
+      "boxes": 499248,
+      "countedPercent": 99.977766561,
+      "valid": 124058633,
+      "blank": 1430253,
+      "invalid": 2722740
+    },
+    {
+      "timestamp": 1792976521000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64240799,
+          "percent": 51.782294754
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59818591,
+          "percent": 48.217705246
+        }
+      ],
+      "counted": 499141,
+      "boxes": 499248,
+      "countedPercent": 99.978567766,
+      "valid": 124059390,
+      "blank": 1430260,
+      "invalid": 2722758
+    },
+    {
+      "timestamp": 1792976556000,
+      "candidates": [
+        {
+          "number": 13,
+          "name": "LULA",
+          "party": "PT",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002542548.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 64241049,
+          "percent": 51.782338493
+        },
+        {
+          "number": 22,
+          "name": "FLAVIO BOLSONARO",
+          "party": "PL",
+          "picture": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/candidates/2026/280002551544.jpg?w=161&h=225&crop=0&quality=100",
+          "votes": 59818719,
+          "percent": 48.217661507
+        }
+      ],
+      "counted": 499143,
+      "boxes": 499248,
+      "countedPercent": 99.978968368,
+      "valid": 124059768,
+      "blank": 1430263,
+      "invalid": 2722766
+    }
+  ]
+}

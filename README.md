@@ -21,6 +21,8 @@ Abra a URL informada no terminal, normalmente http://localhost:5173.
 
 O historico ao vivo fica no navegador, limitado a 500 atualizacoes. A coleta ocorre a cada 30 segundos com a pagina aberta. Registros anteriores a coleta ou ja descartados nao podem ser recuperados pelo painel. O JSON baixado nao e incluido automaticamente nos commits.
 
+Um [historico de exemplo](apuracao-2026-2t-2026-10-26T01-06-08-392Z.json) acompanha este projeto: 130 registros de 25/10/2026, das 19:46:23 as 22:02:36 (Brasilia). Selecione esse arquivo em **Carregar JSON** para visualizar a captura.
+
 ## Verificar
 
 ```sh

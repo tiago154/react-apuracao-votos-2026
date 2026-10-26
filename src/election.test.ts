@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { advantagePoint, append, compare, createArchive, describeChange, ENDPOINT, normalize, parseArchive, validateSnapshot, type Snapshot } from './election'
+import capturedArchive from '../apuracao-2026-2t-2026-10-26T01-06-08-392Z.json?raw'
 
 function sample(first = 1500, second = 1300, timestamp = 1792967083000): Snapshot {
   return {
@@ -113,6 +114,13 @@ describe('exportacao do historico', () => {
 })
 
 describe('importacao de historico', () => {
+  it('carrega o exemplo real versionado com seus 130 registros', () => {
+    const history = parseArchive(JSON.parse(capturedArchive))
+    expect(history).toHaveLength(130)
+    expect(history[0].timestamp).toBe(1792968383000)
+    expect(history.at(-1)!.timestamp).toBe(1792976556000)
+  })
+
   it('reabre o JSON exportado sem alterar os registros', () => {
     const history = [sample(), sample(1700, 1400, 1792967084000)]
     expect(parseArchive(JSON.parse(JSON.stringify(createArchive(history))))).toEqual(history)
