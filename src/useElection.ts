@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
-import { append, ENDPOINT, normalize, persist, restore } from './election'
+import { append, ENDPOINT, normalize, persist, restore, type Snapshot } from './election'
 
-export function useElection() {
+export function useElection(archivedHistory: Snapshot[] | null = null) {
   const [history, setHistory] = useState(restore)
   const historyRef = useRef(history)
   const [loading, setLoading] = useState(false)
@@ -12,6 +12,7 @@ export function useElection() {
   const request = useRef<(() => Promise<void>) | null>(null)
 
   useEffect(() => {
+    if (archivedHistory !== null) return
     let disposed = false
     let controller: AbortController | null = null
 
@@ -59,10 +60,16 @@ export function useElection() {
       controller?.abort()
       request.current = null
     }
-  }, [automatic])
+  }, [automatic, archivedHistory])
 
   return {
-    history, loading, error, checkedAt, storageAvailable, automatic, setAutomatic,
-    refresh: () => void request.current?.(),
+    history: archivedHistory ?? history,
+    loading: archivedHistory === null && loading,
+    error: archivedHistory === null ? error : null,
+    checkedAt: archivedHistory === null ? checkedAt : null,
+    storageAvailable,
+    automatic: archivedHistory === null && automatic,
+    setAutomatic,
+    refresh: () => { if (archivedHistory === null) void request.current?.() },
   }
 }

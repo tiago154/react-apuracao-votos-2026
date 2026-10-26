@@ -1,7 +1,7 @@
-import { useId, useState } from 'react'
-import { Activity, ArrowRight, ArrowRightLeft, Check, Clock3, Download, RefreshCw, AlertCircle, Minus } from 'lucide-react'
+import { useId, useRef, useState, type ChangeEvent } from 'react'
+import { Activity, ArrowRight, ArrowRightLeft, Check, Clock3, Download, Upload, RefreshCw, AlertCircle, Minus } from 'lucide-react'
 import { CartesianGrid, Line, LineChart, ReferenceLine, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
-import { advantagePoint, clock, compare, createArchive, date, decimal, describeChange, ENDPOINT, integer, type Candidate, type Snapshot } from './election'
+import { advantagePoint, clock, compare, createArchive, date, decimal, describeChange, ENDPOINT, integer, parseArchive, type Candidate, type Snapshot } from './election'
 import { useElection } from './useElection'
 
 function signed(value: number): string {
@@ -27,7 +27,11 @@ function Portrait({ candidate }: { candidate: Candidate }) {
 }
 
 export default function App() {
-  const { history, loading, error, checkedAt, storageAvailable, automatic, setAutomatic, refresh } = useElection()
+  const [archive, setArchive] = useState<{ name: string; snapshots: Snapshot[] } | null>(null)
+  const [importError, setImportError] = useState<string | null>(null)
+  const [importing, setImporting] = useState(false)
+  const fileInput = useRef<HTMLInputElement>(null)
+  const { history, loading, error, checkedAt, storageAvailable, automatic, setAutomatic, refresh } = useElection(archive?.snapshots ?? null)
   const [visibleRows, setVisibleRows] = useState(20)
   const gradientId = useId().replace(/:/g, '')
   const current = history.at(-1)
@@ -46,7 +50,25 @@ export default function App() {
     <circle cx={cx} cy={cy} r={4} fill={pointColor(payload?.leaderNumber ?? null)} stroke="#fff" strokeWidth={2} />
   )
   const rows = history.map((snapshot, index) => ({ snapshot, result: compare(snapshot, history[index - 1]) })).reverse()
-  const sourceStatus = error ? 'Falha na consulta' : !checkedAt && current ? 'Historico local' : loading ? 'Consultando fonte' : checkedAt ? 'Fonte consultada' : 'Conectando'
+  const sourceStatus = archive ? 'Arquivo carregado' : error ? 'Falha na consulta' : !checkedAt && current ? 'Historico local' : loading ? 'Consultando fonte' : checkedAt ? 'Fonte consultada' : 'Conectando'
+
+  async function importHistory(event: ChangeEvent<HTMLInputElement>) {
+    const file = event.currentTarget.files?.[0]
+    event.currentTarget.value = ''
+    if (!file) return
+    setImporting(true)
+    setImportError(null)
+    try {
+      if (file.size > 5 * 1024 * 1024) throw new Error('O arquivo deve ter no maximo 5 MB.')
+      const snapshots = parseArchive(JSON.parse(await file.text()))
+      setArchive({ name: file.name, snapshots })
+      setVisibleRows(20)
+    } catch (cause) {
+      setImportError(cause instanceof SyntaxError ? 'JSON invalido. Selecione o arquivo exportado pelo painel.' : cause instanceof Error ? cause.message : 'Nao foi possivel carregar o arquivo.')
+    } finally {
+      setImporting(false)
+    }
+  }
 
   function downloadHistory() {
     const archive = createArchive(history)
@@ -77,14 +99,18 @@ export default function App() {
         <div className="controlbar">
           <div className="source-time"><Clock3 size={16} /><span>Fonte: <strong>{current ? `${date.format(current.timestamp)} ${clock.format(current.timestamp)}` : '--:--:--'}</strong><small>Brasilia</small></span></div>
           <div className="controls">
-            <label className="auto-toggle"><input type="checkbox" checked={automatic} onChange={event => setAutomatic(event.target.checked)} /><span>Auto · 30s</span></label>
+            <label className="auto-toggle"><input type="checkbox" checked={automatic} disabled={archive !== null} onChange={event => setAutomatic(event.target.checked)} /><span>Auto · 30s</span></label>
+            <input ref={fileInput} type="file" accept=".json,application/json" hidden aria-label="Arquivo JSON do historico" onChange={importHistory} />
+            <button className="refresh-button" onClick={() => fileInput.current?.click()} disabled={importing} title="Selecionar historico JSON exportado"><Upload size={16} /><span>{importing ? 'Carregando...' : 'Carregar JSON'}</span></button>
             <button className="refresh-button" onClick={downloadHistory} disabled={history.length === 0} title={`Baixar ${history.length} registros do historico em JSON`}><Download size={16} /><span>Baixar historico JSON</span></button>
-            <button className="refresh-button" onClick={refresh} disabled={loading} title="Consultar dados agora"><RefreshCw size={16} className={loading ? 'spinning' : ''} /><span>Atualizar</span></button>
+            <button className="refresh-button" onClick={refresh} disabled={loading || archive !== null} title="Consultar dados agora"><RefreshCw size={16} className={loading ? 'spinning' : ''} /><span>Atualizar</span></button>
           </div>
         </div>
 
+        {archive && <div className="notice archive-notice" role="status"><Upload size={18} /><span><strong>{archive.name}</strong> · {integer.format(history.length)} registros · {date.format(history[0].timestamp)} {clock.format(history[0].timestamp)} a {date.format(history.at(-1)!.timestamp)} {clock.format(history.at(-1)!.timestamp)}</span><button onClick={() => { setArchive(null); setImportError(null); setVisibleRows(20) }}>Voltar ao vivo</button></div>}
+        {importError && <div className="notice error" role="alert"><AlertCircle size={18} /><span>{importError}</span><button onClick={() => setImportError(null)}>Fechar</button></div>}
         {error && <div className="notice error" role="alert"><AlertCircle size={18} /><span>{error} {current ? 'Os dados anteriores continuam visiveis.' : ''}</span><button onClick={refresh} disabled={loading}>Tentar novamente</button></div>}
-        {!storageAvailable && <div className="notice" role="status"><AlertCircle size={18} />Historico disponivel apenas nesta sessao: armazenamento local indisponivel.</div>}
+        {!storageAvailable && !archive && <div className="notice" role="status"><AlertCircle size={18} />Historico disponivel apenas nesta sessao: armazenamento local indisponivel.</div>}
 
         {!current || !result ? (
           <section className="empty-state" aria-live="polite"><Activity size={32} className={loading ? 'spinning' : ''} /><h2>{loading ? 'Consultando a apuracao' : 'Sem dados disponiveis'}</h2><p>{loading ? 'Aguardando resposta da fonte.' : 'Nenhum resultado foi recebido.'}</p></section>
@@ -146,7 +172,7 @@ export default function App() {
           <section className="summary-strip" aria-label="Resumo dos votos"><div><span>Votos validos</span><strong>{integer.format(current.valid)}</strong></div><div><span>Brancos</span><strong>{integer.format(current.blank)}</strong></div><div><span>Nulos</span><strong>{integer.format(current.invalid)}</strong></div></section>
         </>}
 
-        <footer><span>Fonte: <a href={ENDPOINT} target="_blank" rel="noreferrer">endpoint informado · CloudFront</a></span><span>{checkedAt ? `Consulta confirmada: ${date.format(checkedAt)} ${clock.format(checkedAt)}` : 'Nenhuma consulta confirmada nesta sessao'}</span></footer>
+        <footer><span>Fonte: <a href={ENDPOINT} target="_blank" rel="noreferrer">endpoint informado · CloudFront</a></span><span>{archive ? `Arquivo local: ${archive.name}` : checkedAt ? `Consulta confirmada: ${date.format(checkedAt)} ${clock.format(checkedAt)}` : 'Nenhuma consulta confirmada nesta sessao'}</span></footer>
       </main>
     </div>
   )

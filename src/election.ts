@@ -173,6 +173,29 @@ export function createArchive(history: Snapshot[], exportedAt = Date.now()) {
   }
 }
 
+export function parseArchive(value: unknown): Snapshot[] {
+  const archive = object(value)
+  const election = object(archive.election)
+  if (archive.version !== 1 || archive.source !== ENDPOINT || election.year !== 2026 || election.round !== 2 || election.uf !== 'br' || election.office !== 'presidente') {
+    throw new Error('Arquivo incompativel. Selecione um JSON exportado por este painel.')
+  }
+  if (!Array.isArray(archive.snapshots) || archive.snapshots.length === 0) {
+    throw new Error('O arquivo nao possui registros de apuracao.')
+  }
+  const snapshots = archive.snapshots.map(validateSnapshot)
+  snapshots.forEach((snapshot, index) => {
+    if (index === 0) return
+    const prior = snapshots[index - 1]
+    if (snapshot.timestamp <= prior.timestamp || snapshot.candidates.some((candidate, candidateIndex) => candidate.number !== prior.candidates[candidateIndex].number)) {
+      throw new Error('Historico invalido: horarios fora de ordem ou candidatos inconsistentes.')
+    }
+  })
+  if (archive.snapshotCount !== snapshots.length || archive.firstUpdate !== snapshots[0].timestamp || archive.lastUpdate !== snapshots.at(-1)!.timestamp) {
+    throw new Error('Os metadados do arquivo nao correspondem aos registros.')
+  }
+  return snapshots
+}
+
 export const integer = new Intl.NumberFormat('pt-BR')
 export const decimal = new Intl.NumberFormat('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
 export const clock = new Intl.DateTimeFormat('pt-BR', { timeZone: 'America/Sao_Paulo', hour: '2-digit', minute: '2-digit', second: '2-digit' })

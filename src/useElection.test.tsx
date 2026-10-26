@@ -42,6 +42,36 @@ afterEach(() => {
 })
 
 describe('coleta e persistencia', () => {
+  it('consulta um arquivo sem rede e sem substituir o historico ao vivo', async () => {
+    const archived = [normalize(payload(1792967081000, 1200, 1000))]
+    persist([normalize(payload())])
+    const original = localStorage.getItem(STORAGE_KEY)
+    const { result } = renderHook(() => useElection(archived))
+    await settle()
+    expect(result.current.history).toEqual(archived)
+    expect(result.current.automatic).toBe(false)
+    expect(result.current.checkedAt).toBeNull()
+    await act(async () => { result.current.refresh(); vi.advanceTimersByTime(60000) })
+    expect(fetchMock).not.toHaveBeenCalled()
+    expect(localStorage.getItem(STORAGE_KEY)).toBe(original)
+  })
+
+  it('pausa a coleta ao importar e retoma o historico original ao voltar ao vivo', async () => {
+    respond()
+    const archived = [normalize(payload(1792967081000, 1200, 1000))]
+    const { result, rerender } = renderHook(({ archive }) => useElection(archive), { initialProps: { archive: null as ReturnType<typeof normalize>[] | null } })
+    await settle()
+    expect(fetchMock).toHaveBeenCalledTimes(1)
+    rerender({ archive: archived })
+    await act(async () => { vi.advanceTimersByTime(60000) })
+    expect(fetchMock).toHaveBeenCalledTimes(1)
+    expect(result.current.history).toEqual(archived)
+    rerender({ archive: null })
+    await settle()
+    expect(fetchMock).toHaveBeenCalledTimes(2)
+    expect(result.current.history[0].timestamp).toBe(1792967083000)
+  })
+
   it('consulta imediatamente, nao duplica e registra novo horario', async () => {
     respond()
     const { result } = renderHook(useElection)

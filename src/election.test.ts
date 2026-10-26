@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { advantagePoint, append, compare, createArchive, describeChange, ENDPOINT, normalize, validateSnapshot, type Snapshot } from './election'
+import { advantagePoint, append, compare, createArchive, describeChange, ENDPOINT, normalize, parseArchive, validateSnapshot, type Snapshot } from './election'
 
 function sample(first = 1500, second = 1300, timestamp = 1792967083000): Snapshot {
   return {
@@ -109,6 +109,33 @@ describe('exportacao do historico', () => {
   it('trata historico vazio e recusa registros invalidos', () => {
     expect(createArchive([])).toMatchObject({ snapshotCount: 0, firstUpdate: null, lastUpdate: null, snapshots: [] })
     expect(() => createArchive([{ ...sample(), valid: -1 }])).toThrow()
+  })
+})
+
+describe('importacao de historico', () => {
+  it('reabre o JSON exportado sem alterar os registros', () => {
+    const history = [sample(), sample(1700, 1400, 1792967084000)]
+    expect(parseArchive(JSON.parse(JSON.stringify(createArchive(history))))).toEqual(history)
+  })
+  it('rejeita versao, fonte ou eleicao incompativel e arquivo vazio', () => {
+    const archive = createArchive([sample()])
+    expect(() => parseArchive({ ...archive, version: 2 })).toThrow('incompativel')
+    expect(() => parseArchive({ ...archive, source: 'https://example.com' })).toThrow('incompativel')
+    expect(() => parseArchive({ ...archive, election: { ...archive.election, round: 1 } })).toThrow('incompativel')
+    expect(() => parseArchive(createArchive([]))).toThrow('nao possui registros')
+    expect(() => parseArchive(null)).toThrow()
+  })
+  it('rejeita valores invalidos, metadados divergentes e horarios duplicados ou invertidos', () => {
+    const archive = createArchive([sample(), sample(1700, 1400, 1792967084000)])
+    expect(() => parseArchive({ ...archive, snapshotCount: 3 })).toThrow('metadados')
+    expect(() => parseArchive({ ...archive, snapshots: [{ ...sample(), valid: -1 }] })).toThrow()
+    expect(() => parseArchive(createArchive([sample(), sample()]))).toThrow('fora de ordem')
+    expect(() => parseArchive(createArchive([...archive.snapshots].reverse()))).toThrow('fora de ordem')
+  })
+  it('rejeita troca de candidatos entre registros', () => {
+    const changed = sample(1700, 1400, 1792967084000)
+    changed.candidates[0].number = 14
+    expect(() => parseArchive(createArchive([sample(), changed]))).toThrow('candidatos inconsistentes')
   })
 })
 

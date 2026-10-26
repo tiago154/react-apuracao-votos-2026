@@ -26,3 +26,5 @@
 @media(max-width:700px){.lead-change{padding-left:0}.lead-change .change-summary>strong{font-size:22px}}
 
 .controls{flex-wrap:wrap}
+.archive-notice{background:#edf4fb;border-color:#b9cee5;color:#274f76}
+.archive-notice span{overflow-wrap:anywhere;min-width:0}
